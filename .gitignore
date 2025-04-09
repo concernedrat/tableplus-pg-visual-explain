@@ -1,5 +1,6 @@
 #tableplus output plugin
 PgVisualExplain.tableplusplugin.zip
+PgVisualExplain.tableplusplugin/
 
 # Dependencies
 node_modules/

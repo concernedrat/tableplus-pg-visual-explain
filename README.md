@@ -71,6 +71,19 @@ The JSON explain plan is then visualized using the PEV2 library, which provides 
 - `ui/` - Contains the Vue.js components and UI logic
 - `dist/` - Contains the compiled JavaScript files (generated after build)
 - `tests/` - Contains test files for verifying the plugin
+- `.github/workflows/` - Contains GitHub Actions workflow files for CI/CD
+
+### Automated Releases
+
+This project uses GitHub Actions to automatically build and release the plugin. Every time a commit is pushed to the main branch, the workflow will:
+
+1. Build the plugin
+2. Package it into a `.tableplusplugin.zip` file
+3. Create a GitHub release with the packaged plugin attached
+
+The release is automatically tagged and named using the version from package.json combined with the commit SHA. No manual tagging is required - just push your changes to the main branch, and a new release will be created automatically.
+
+All releases will appear on the [releases page](https://github.com/concernedrat/tableplus-pg-visual-explain/releases).
 
 ### Testing
 

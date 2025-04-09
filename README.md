@@ -2,6 +2,8 @@
 
 A TablePlus plugin that provides visual explain plan visualization for PostgreSQL queries using PEV2.
 
+> **Note:** I know the code is shit, it was basically put together in 2 hours a saturday night.
+
 ## Features
 
 - Visualize PostgreSQL EXPLAIN plans using PEV2
@@ -11,7 +13,7 @@ A TablePlus plugin that provides visual explain plan visualization for PostgreSQ
 
 ## Installation
 
-1. Download the latest release from the [releases page](https://github.com/jorgemarizan/tableplus-pg-visual-explain/releases).
+1. Download the latest release from the [releases page](https://github.com/concernedrat/tableplus-pg-visual-explain/releases).
 2. Double-click the `.tableplusplugin` file to install it in TablePlus.
 3. Restart TablePlus if necessary.
 
@@ -35,7 +37,7 @@ The JSON explain plan is then visualized using the PEV2 library, which provides 
 
 ### Prerequisites
 
-- Node.js (v14 or later)
+- Node.js (v21 or later)
 - npm
 
 ### Setup

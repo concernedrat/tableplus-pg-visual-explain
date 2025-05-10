@@ -2,8 +2,6 @@
 
 A TablePlus plugin that provides visual explain plan visualization for PostgreSQL queries using PEV2.
 
-> **Note:** I know the code is shit, it was basically put together in 2 hours a saturday night.
-
 ![PostgreSQL Visual Explain for TablePlus](pg-analyzer-tableplus.png)
 
 ## Features
